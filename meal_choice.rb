@@ -27,14 +27,14 @@ def breakfast (default_meal_choice_breakfest="Frosted Flakes")
   puts "Morning is the best time for #{default_meal_choice_breakfest}!"
 end
 
-def lunch (default_meal_choice_lunch="Grilled Cheese")
+def lunch (default_meal_choice_lunch="Grilled Cheese"!)
   puts "The afternoon is the best time for #{default_meal_choice_lunch}"
 end
 
 def dinner (default_meal_choice_dinner="Salmon")
-  puts "The evening is the best time for #{default_meal_choice_dinner}"
+  puts "The evening is the best time for #{default_meal_choice_dinner}!"
 end
 
-breakfast()
+breakfast("Pancakes")
 lunch()
 dinner()
