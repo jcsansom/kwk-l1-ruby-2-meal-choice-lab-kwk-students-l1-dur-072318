@@ -2,6 +2,8 @@ def snacks(food="Cheetos")
   "Any time, is the right time for #{food}!"
 end
 
+
+
 def breakfast(default_meal_choice_breakfest="frosted flakes")
   puts "Morning is the best time for #{default_meal_choice_breakfest}!"
 end
@@ -14,7 +16,7 @@ def dinner(default_meal_choice_dinner="salmon")
   puts "The evening is the best time for #{default_meal_choice_dinner}!"
 end
 
-snacks()
+
 breakfast("pancakes")
 lunch("peanut butter")
 dinner("broccoli")
