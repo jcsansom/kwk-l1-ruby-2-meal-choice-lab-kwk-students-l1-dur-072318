@@ -5,7 +5,7 @@ end
 snacks()
 
 def breakfast(default_meal_choice_breakfast="Frosted Flakes")
-  puts "Morning is the best time for #{default_meal_choice_breakfast}!"
+  "Morning is the best time for #{default_meal_choice_breakfast}!"
 end
 
 breakfast("pancakes")
