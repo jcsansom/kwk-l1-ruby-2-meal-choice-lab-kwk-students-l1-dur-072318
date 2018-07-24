@@ -23,18 +23,18 @@ puts snacks
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
 
 
-def breakfast (default_meal_choice_breakfest="Frosted Flakes")
+def breakfast (default_meal_choice_breakfest="frosted flakes")
   puts "Morning is the best time for #{default_meal_choice_breakfest}!"
 end
 
-def lunch (default_meal_choice_lunch="Grilled Cheese")
+def lunch (default_meal_choice_lunch="grilled cheese")
   puts "The afternoon is the best time for #{default_meal_choice_lunch}!"
 end
 
-def dinner (default_meal_choice_dinner="Salmon")
+def dinner (default_meal_choice_dinner="salmon")
   puts "The evening is the best time for #{default_meal_choice_dinner}!"
 end
 
-breakfast()
-lunch()
-dinner()
+breakfast("pancakes")
+lunch("peanut butter")
+dinner("broccoli")
