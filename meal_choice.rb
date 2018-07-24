@@ -35,6 +35,6 @@ def dinner (default_meal_choice_dinner="Salmon")
   puts "The evening is the best time for #{default_meal_choice_dinner}!"
 end
 
-breakfast("Pancakes")
+breakfast()
 lunch()
 dinner()
