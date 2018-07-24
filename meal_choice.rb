@@ -4,11 +4,11 @@ end
 
 snacks()
 
-def breakfast(default_meal_choice_breakfest="pancakes")
+def breakfast(default_meal_choice_breakfest="Frosted Flakes")
   puts "Morning is the best time for #{default_meal_choice_breakfest}!"
 end
 
-breakfast("pancakes")
+breakfast(pancakes)
 
 def lunch(default_meal_choice_lunch="grilled cheese")
   puts "The afternoon is the best time for #{default_meal_choice_lunch}!"
