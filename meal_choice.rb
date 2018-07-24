@@ -11,13 +11,13 @@ end
 breakfast("pancakes")
 
 def lunch(default_meal_choice_lunch="grilled cheese")
-  puts "The afternoon is the best time for #{default_meal_choice_lunch}!"
+  "The afternoon is the best time for #{default_meal_choice_lunch}!"
 end
 
 lunch("peanut butter")
 
 def dinner(default_meal_choice_dinner="salmon")
-  puts "The evening is the best time for #{default_meal_choice_dinner}!"
+  "The evening is the best time for #{default_meal_choice_dinner}!"
 end
 
 dinner("broccoli")
